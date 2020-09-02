@@ -1,0 +1,57 @@
+h1 {
+  font-family: Courier;
+  border: solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.blueness {
+  background-color: lightblue;
+}
+
+.medium {
+  width: 500px;
+  height: 300px;
+}
+
+.small {
+  width: 300px;
+  height: 180px;
+}
+
+p {}
+
+h3 {
+  font-family: Courier;
+  text-align: left;
+  color: blue;
+}
+
+/* The Side navigation menu */
+.topnav {
+  background-color: #F8F8FF;
+  overflow: hidden;
+}
+
+/* Sidebar links*/
+.topnav a {
+  float:left;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*Active/curent link */
+.topnav a.active{
+  background-color: #000000;
+  color: white;
+}
+
+/*links on mouse-over */
+.topnav a:hover:not (.active) {
+  background-color: #555;
+  color: white;
+}
+}
